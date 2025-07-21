@@ -2,6 +2,8 @@
 
 Protótipo funcional de uma plataforma **SOAR** (*Security Orchestration, Automation and Response*) utilizando **Python, FastAPI e SQLite**. O sistema simula o fluxo completo de ingestão, enriquecimento e análise de alertas de segurança com automação de decisões baseadas em dados externos.
 
+**👉 Teste a API funcionando ao vivo aqui:** [https://soar-lite-api.onrender.com/docs](https://soar-lite-api.onrender.com/docs)
+
 ---
 
 ## 📚 Tabela de Conteúdo
@@ -12,6 +14,7 @@ Protótipo funcional de uma plataforma **SOAR** (*Security Orchestration, Automa
 - [⚙️ Tecnologias e Ferramentas](#tecnologias-e-ferramentas)
 - [🔐 Instalação e Execução Local](#instalação-e-execução-local)
 - [🚨 Como Usar a API](#como-usar-a-api)
+- [🌐 Demonstração Online](#demonstração-online)
 - [🧠 Lógica de Decisão (Fase 4)](#lógica-de-decisão-fase-4)
 - [🗃️ Exemplo de Registro no Banco](#exemplo-de-registro-no-banco)
 - [📊 Diagramas do Projeto](#diagramas-do-projeto)
@@ -93,7 +96,7 @@ cd soar-lite
 ```bash
 # Windows
 python -m venv venv
-.env\Scriptsctivate
+.\venv\Scripts\activate
 
 # Linux/macOS
 python3 -m venv venv
@@ -162,6 +165,14 @@ Acesse a documentação interativa da API:
 
 ---
 
+## 🌐 Demonstração Online
+
+Você pode testar a API do SOAR Lite funcionando ao vivo, sem precisar instalar nada localmente!
+
+Acesse a documentação interativa (Swagger UI) do serviço deployado no Render:
+
+[**Clique aqui para testar a API ao vivo!**](https://soar-lite-api.onrender.com/docs)
+
 ## 🧠 Lógica de Decisão (Fase 4)
 
 | Condição                                                  | Ação Recomendada | Justificativa                                   |
@@ -213,15 +224,13 @@ Acesse a documentação interativa da API:
 | Fase 2   | Estruturação inicial do projeto                | ✅ Concluída |
 | Fase 3   | Ingestão, validação e enriquecimento de IPs    | ✅ Concluída |
 | Fase 4   | Decisão automática baseada em regras           | ✅ Concluída |
-| Fase 5   | Compartilhamento público e README              | 🚧 Em progresso |
+| Fase 5   | Compartilhamento público e README              | ✅ Concluída |
 | Fase 6   | Integrações avançadas e automações             | ⏳ Pendente  |
 
 ---
 
 ## 🌱 Próximos Passos
 
-- 📢 Publicar o projeto no GitHub
-- 🚀 Deploy gratuito (Render, Replit, Deta)
 - 📊 Criar dashboard com Streamlit
 - 🔐 Autenticação com JWT
 - 🔗 Integração com sistemas reais (ELK Stack, Filebeat)
