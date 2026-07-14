@@ -244,11 +244,6 @@ Acesse a documentação interativa (Swagger UI) do serviço deployado no Render:
 Desenvolvedor Python | Analista de Cibersegurança Jr.  
 [🔗 LinkedIn](https://www.linkedin.com/in/robert-emanuel/) • [💻 GitHub](https://github.com/r0b3rTdk)
 
----
-
-## 📜 Licença
-
-Distribuído sob a licença MIT. Consulte `LICENSE` para mais informações.
 
 ---
 
